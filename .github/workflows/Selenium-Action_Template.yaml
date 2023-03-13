@@ -27,8 +27,8 @@ jobs:
         
       - name: Commit and Push The Results From Python Selenium Action
         run: |
-        git config --global user.name "johnny7001"
-        git config --global user.email "theforeverwen@gmail.com"
-        git add .
-        git commit -m "update"
-        git push
+          git config --global user.name "johnny7001"
+          git config --global user.email "theforeverwen@gmail.com"
+          git add .
+          git commit -m "update"
+          git push
